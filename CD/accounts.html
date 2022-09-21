@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="assets/css/styles.css" rel="stylesheet">
+        <title>Dasboard</title>
+        <!-------------------------------------------------------------Fonts/Icons--------------------------------------------------------->
+
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    </head>
+    <body>
+
+        <!----------------------------------------------------------Header/sidbar---------------------------------------------------------->
+        <div class="grid-container">
+
+        <header class="header">
+
+            <div class="menu-icon" onclick="openSidebar()">
+                <span class="material-icons-outlined">menu</span>
+              </div>
+
+              <div class="header-right">
+                <span class="material-icons-outlined">notifications</span>
+                <span class="material-icons-outlined">email</span>
+                <span class="material-icons-outlined">account_circle</span>
+              </div>
+
+
+
+        </header>
+
+        <aside id="sidebar">
+            <div class="sidebar-title">
+              <div class="sidebar-brand">
+                <span class="material-icons-outlined">inventory</span> CHEAT DETECTOR
+              </div>
+              <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+            </div>
+
+            <ul class="sidebar-list">
+
+              <a href="index.html">
+                <li class="sidebar-list-item">
+                  <span class="material-icons-outlined">dashboard</span> DASHBOARD
+                </li>
+              </a>
+
+              <a href="howTo.html">
+                <li class="sidebar-list-item">
+                  <span class="material-icons-outlined">play_arrow</span> HOW TO USE
+                </li>
+              </a>
+
+              <a href="records.html">
+                <li class="sidebar-list-item">
+                  <span class="material-icons-outlined">inventory_2</span> RECORDS
+                </li>
+              </a>
+
+              <a href="links.html">
+                <li class="sidebar-list-item">
+                  <span class="material-icons-outlined">link</span> QUIZ LINKS
+                </li>
+              </a>
+
+              <a href="accounts.html">
+                <li class="sidebar-list-item">
+                  <span class="material-icons-outlined">account_circle</span> ACCOUNT
+                </li>
+              </a>
+
+                <a href="reports.html">
+                    <li class="sidebar-list-item">
+                      <span class="material-icons-outlined">bug_report</span> REPORTS
+                    </li>
+                  </a>
+
+                  <a href="settings.html">
+                    <li class="sidebar-list-item">
+                        <span class="material-icons-outlined">settings</span> SETTINGS
+                    </li>
+                  </a>
+
+            </ul>
+          </aside>
+
+        <!--------------------------------------------------------------MAIN---------------------------------------------------------------->
+
+        <main class="main-container">
+            <!--------------------------account box--------------------------->
+            <div class="accountbox">
+
+                <div class="accountimg">
+                    <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" alt="ANON">
+                </div>
+
+                <div class="para">
+                  <p class="para1">
+                    <span style="font-size:50px;">Juan Dela Cruz</span>
+                    <span style="font-size:25px; margin-left:500px;">Yr/sec: BSCS XX</span>
+                  </p>
+
+                  <br>
+                  <br>
+                  <br>
+
+                  <p class="para1">
+                    <span style="font-size:25px;">ID No.2022-00000</span>
+                    <span style="font-size:25px; margin-left:640px;">No. of Subjects: 5</span>
+                  </p>
+                </div>
+
+                <!--------------------------------------------------------------Tables---------------------------------------------------------------->
+                <div class="accountbox2">
+                  <table>
+                    <tr>
+                      <th>Subject</th>
+                      <th>No. Quizes taken</th>
+                      <th>No. Quizes in queue</th>
+                      <th>No. Quizes in total</th>
+                    </tr>
+
+                    <tr>
+                      <td>ENGLISH</td>
+                      <td>10</td>
+                      <td>5</td>
+                      <td>15</td>
+                    </tr>
+
+                    <tr>
+                      <td>MATH</td>
+                      <td>13</td>
+                      <td>5</td>
+                      <td>18</td>
+                    </tr>
+
+                    <tr>
+                      <td>Science</td>
+                      <td>12</td>
+                      <td>11</td>
+                      <td>23</td>
+                    </tr>
+
+                    <tr>
+                      <td>Filipino</td>
+                      <td>30</td>
+                      <td>5</td>
+                      <td>35</td>
+                    </tr>
+
+                    <tr>
+                      <td>TLE</td>
+                      <td>4</td>
+                      <td>5</td>
+                      <td>9</td>
+                    </tr>
+
+                    <tr>
+                      <td>HISTORY</td>
+                      <td>15</td>
+                      <td>9</td>
+                      <td>24</td>
+                    </tr>
+
+                  </table>
+
+                </div>
+
+  
+
+            </div>
+
+
+
+        </main>
+
+
+
+ <!--------------------------------------------------------------Scripts---------------------------------------------------------------->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.35.3/apexcharts.min.js"></script>
+
+    <script src="js/scripts.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="assets/css/styles.css" rel="stylesheet">
+        <title>Dasboard</title>
+        <!-------------------------------------------------------------Fonts/Icons--------------------------------------------------------->
+
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    </head>
+    <body>
+
+        <!----------------------------------------------------------Header/sidbar---------------------------------------------------------->
+        <div class="grid-container">
+
+        <header class="header">
+
+            <div class="menu-icon" onclick="openSidebar()">
+                <span class="material-icons-outlined">menu</span>
+              </div>
+
+              <div class="header-right">
+                <span class="material-icons-outlined">notifications</span>
+                <span class="material-icons-outlined">email</span>
+                <span class="material-icons-outlined">account_circle</span>
+              </div>
+
+
+
+        </header>
+
+        <aside id="sidebar">
+            <div class="sidebar-title">
+              <div class="sidebar-brand">
+                <span class="material-icons-outlined">inventory</span> CHEAT DETECTOR
+              </div>
+              <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+            </div>
+
+            <ul class="sidebar-list">
+
+              <a href="index.html">
+                <li class="sidebar-list-item">
+                  <span class="material-icons-outlined">dashboard</span> DASHBOARD
+                </li>
+              </a>
+
+              <a href="howTo.html">
+                <li class="sidebar-list-item">
+                  <span class="material-icons-outlined">play_arrow</span> HOW TO USE
+                </li>
+              </a>
+
+              <a href="records.html">
+                <li class="sidebar-list-item">
+                  <span class="material-icons-outlined">inventory_2</span> RECORDS
+                </li>
+              </a>
+
+              <a href="links.html">
+                <li class="sidebar-list-item">
+                  <span class="material-icons-outlined">link</span> QUIZ LINKS
+                </li>
+              </a>
+
+                <li class="sidebar-list-item">
+                  <span class="material-icons-outlined">account_circle</span> ACCOUNT
+                </li>
+
+              <a href="reports.html">
+                <li class="sidebar-list-item">
+                  <span class="material-icons-outlined">bug_report</span> REPORTS
+                </li>
+              </a>
+
+              <a href="settings.html">
+                <li class="sidebar-list-item">
+                    <span class="material-icons-outlined">settings</span> SETTINGS
+                </li>
+              </a>
+
+            </ul>
+          </aside>
+
+        <!--------------------------------------------------------------MAIN---------------------------------------------------------------->
+
+        <main class="main-container">
+
+          <a href="index.html">
+            <div class="main-title">
+              <p class="font-weight-bold">DASHBOARD</p>
+            </div>
+          </a>
+            <div class="main-cards">
+
+            <a href="howTo.html">
+              <div class="card">
+                <div class="card-inner">
+                  <p class="text-primary">HOW TO USE</p>
+                    <span class="material-icons-outlined">play_arrow</span>
+                  </div>
+              </div>
+            </a>
+
+
+            <a href="records.html">
+              <div class="card">
+                <div class="card-inner">
+                  <p class="text-primary">RECORDS</p>
+                  <span class="material-icons-outlined">inventory_2</span>
+                  </div>
+              </div>
+            </a>
+
+            <a href="links.html">
+              <div class="card">
+                <div class="card-inner">
+                  <p class="text-primary">QUIZ LINKS</p>
+                    <span class="material-icons-outlined">link</span>
+                  </div>
+              </div>
+            </a>
+
+            <a href="accounts.html">
+              <div class="card">
+                <div class="card-inner">
+                  <p class="text-primary">ACCOUNT</p>
+                  <span class="material-icons-outlined">account_circle</span> 
+                  </div>
+              </div>
+            </a>
+
+            </div>
+
+            
+            <div class="charts">
+
+              <a href="google.com">
+                <button class="button">
+                    VIDEO
+                </button>
+              </a>
+
+              <a href="google.com">
+                <button class="button">
+                    HARDWARE
+                </button>
+              </a>
+
+            </div>
+
+
+          </main>
+
+        </div>
+
+
+ <!--------------------------------------------------------------Scripts---------------------------------------------------------------->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.35.3/apexcharts.min.js"></script>
+
+    <script src="js/scripts.js"></script>
+
+    </body>
+</html>
